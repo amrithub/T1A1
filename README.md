@@ -68,6 +68,32 @@ IPv4 can generate 4.29×109 address space and Address space of IPv6 is quite lar
 ## *routers and routing*
 A router is a networking device used to forward data packets between computer networks. Also, quite essential for internet, traffic control of data flow is also maintained by router. Router acts as a gateway and is placed at a meeting pointof two or more networks. A router inspects a packet's header's destination IP address and determines the packet's next hop.
 
+#### **Define the features of the following technologies that are essential in terms of the development of the internet:**
+  - TCP
+  - HTTP and HTTPS
+  - web browsers (requests, rendering and developer tools)
+
+  **TCP:**
+
+  The Transmission Control Protocol (TCP) is one of the most adopted protocols of the Internet protocol suite. Initially originated in the Initial network implementation in which it to complement the Internet Protocol (IP). Therefore, the entire package is commonly referred to as TCP/IP. TCP is responsible to deliver reliable, ordered, and error-checked stream of octets (bytes)between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP. User Datagram Protocol (UDP) can be used for applications that do not require reliable data stream service.
+
+  **HTTP and HTTPS**
+  The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. It is regarded as the foundation of data communication tecchnology for the World Wide Web. In World wide Web, hypertext documents include hyperlinks to other resources that is easily accessible to user. User can respond by a mouse click or by tapping the screen in a web browser or other ways.
+
+  Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP)and  is widely used for secure communication over a network.
+
+  **web browsers (requests, rendering and developer tools)**
+  A web browser (commonly referred to as a browser) is a software application to access information available on the World Wide Web. It is a big big web  of network from all over the world. sWhen a user requests a specific website, the web browser retrieves the necessary content from a web server and then displays the resulting web page on the user's device.
+  HTTP Request is a packet of Information that is sent by one computer to another computer to communicate.
+
+  Browser rendering is performed by an engine called browser rendering engine  which is a Software that renders HTML pages (Web pages). It turns the HTML layout tags in the page into the appropriate commands for the operating system.
+
+  Developer tools are those browsers which we use to search certain website. Examples are: mozilla firefox, Google Chrome, Internet Explorer, Opera, Safari
+
+
+
+
+
 #### **Q4:Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.**
 ## Data Structures in Ruby:
 3 of the ruby data structures are as below:
@@ -224,6 +250,23 @@ swapper = arr[i]
 arr[i] = arr[i + 1]
 arr[i + 1] = swapper
 print arr
+
+#### *Demonstrate your algorithmic thinking through completing the following two tasks, in order:*
+  i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
+ii. Write pseudocode for the process outlined in your flowchart
+
+The relevant algorithm for the outlined questioned is as below:
+1. Start
+2. Start to check from 4 (1,2,3 are already prime numbers)
+3. Divide the number starting by 2
+4. if the remainder is 0, mark the number as prime else divide the first number (dividend) by 3, 4 and so on until the remainder is zero or the divisor is equal to the dividend.
+5. Check whether the next number is prime or not by repeating the process no. 4.
+6. Repeat process number 5 until number is 99
+7. Display the list of prime numbers.
+
+The flowchart of the programme:
+
+![flowchart](/pictures/q14.png)
 
 # **Q15:"
 The ruby code for the relevant question is below which is a screenshot of ruby code q15.rb and this ruby file has been include in the directory named ruby-files

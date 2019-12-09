@@ -39,7 +39,7 @@ chars = c.split('')
 for i in chars
     #puts chars[i]
     # print allergy.key(i)
-    
+    #puts i
     if i == "1"
         x = val[j]
         # print val[j]
@@ -82,4 +82,4 @@ end
 #         j = j + 1
 #     end      
 # #end
-
+#print allergies
