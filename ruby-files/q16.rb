@@ -16,7 +16,7 @@
 val = [1,2,4,8,16,32,64,128]
 allergies = []
 #allergy = {c:1,d:3}
-allergy = {e:1, pe:2, sh:4, st:8, t:16, ch:32, po:64, ca:128}
+allergy = {eggs:1, peanuts:2, shellfish:4, strawberries:8, tomatoes:16, chocolate:32, pollen:64, cats:128}
 puts "Please enter the number:  "
 num = gets.chomp.to_i
 while num > 255 or num < 1
@@ -49,15 +49,18 @@ for i in chars
     end
     j = j - 1
 end
+allergy = {eggs:1, peanuts:2, shellfish:3, strawberries:4, tomatoes:5, chocolate:6, pollen:7, cats:8}
 puts "Please enter the item you want to check allergy for:"
-item = gets.chomp
+item = gets.chomp.to_i
 
-if allergies.to_s.include?(item)
-    puts "You are allergic to #{item}"
+
+if allergies.to_s.include?(allergy.key(item).to_s)
+    puts "You are allergic to #{allergy.key(item)}"
 else
-    puts "You are not allergic to #{item}"
+    puts "You are not allergic to #{allergy.key(item)}"
 end
 puts
+
 puts "Full list of allergies:"
 puts
 for i in allergies

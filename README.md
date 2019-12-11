@@ -1,41 +1,38 @@
 Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
 # **Q1. Development of Internet and Major Breakthrough**
-As most of us have witnessed the growth of internet technology over the last 3 decades, internet technology has been an integral part of modern society, business world, health, education and almost everywhere. Our journey started with a simple messaging application to a very sophiscated applications and technology associated to internet. The Internet was introduced about fourty years ago during a research by the US millitary dubbed Arpanet.
+As most of us have witnessed the growth of internet technology over the last 3 decades, internet technology has been an integral part of modern society, business world, health, education and almost everywhere. Our journey started with a simple messaging application to a very sophisticated applications and technology associated to internet. The Internet technology was introduced about fourty years ago during a research by the US millitary dubbed Arpanet.
 ##### *(Carolyn Duffy Marsan, **Network World Feb 9, 2009** )*
-since it's introduction, the Internet has expanded exponentially and the number of users has risen from a limited computer scientists to 1.5 billion consumers.  every corner of the globe has access to the Internet, hence well  beyond the United States. Nevertheless, its popularity doesn't come alone, there is a dark side too, as it has evolved from a friendly research network to a hotbed of criminal activity including fraud and identity theft. 
+The Internet has grown rapidly since its launch and the number of users has risen from a small number of computer scientists to 1.5 billion customers.
+Every corner of the globe has Internet access, going far beyond the United States. Furthermore, its success does not come alone, as it has grown from a friendly research network to a hotbed for criminal activity like fraud and identity theft, there is also a dark side.
 ##### (by Carolyn Duffy Marsan, **Network World Feb 9, 2009** )*
 
-But originally, Arpanet was for the Advanced Research Projects Agency. Then in 1969 after the creation of Arpanet,when Arpanet was created, it connected five sites: UCLA, Stanford, UC Santa Barbara, the University of Utah and BBN. In 1983, the U.S. Defense Department spun-off MILNET*, which was the part of Arpanet that carried unclassified military communications. Arpanet was renamed the Internet in 1984, when it linked 1,000 hosts at university and corporate labs.
+But Arpanet was originally for the Advanced Projects Agency for Research. It then connected five sites in 1969 after Arpanet was created: UCLA, Stanford, UC Santa Barbara, Utah University, and BBN. The United States in 1983. MILNET, which was the component of Arpanet that handled unclassified military communications, was spun-off from the Defense Department. 
+In 1984, Arpanet was renamed the Internet when it connected 1,000 hosts at university and corporate laboratories. <br>
+Subsequently, MILNET was re-named Defense Data Network and eventually NIPRNET, Non-classified IP Router Network.</br>
 
-*MILNET was later re-named the Defense Data Network and finally NIPRNET, for Non-classified IP Router Network.
 ![development of internet](/pictures/dev.png)
 Fig: development of internet
 ## **First Major Breakthrough** *(1960-1970)* 
-The introduction of Arpanet in 1969 by the US army during a research is the first notable breakthrough in Internet Technology.
+Arpanet's launch by the U.S. military during a study in 1969 is the first significant advance in Internet technology.
 
-Approximately 15 years after the first computers became operational, researchers began to realize that an interconnected network of computers could provide services that transcended the capabilities of a single system. At this time, computers were becoming increasingly powerful, and a number of scientists were beginning to consider applications that went far beyond simple numerical calculation 
+Around 15 years after the first computers were operational, scientists began to realise that an integrated computer network was able to provide services that transcended a single system's capabilities. Computers were increasingly powerful at this time, and a number of scientists began to consider applications that went far beyond basic mathematical calculations.
 
 # **Expansion of the Arpanet:** *1970-1980*
-Initially conceived as a means of sharing expensive computing resources among ARPA research contractors, the ARPANET evolved in a number of unanticipated directions during the 1970s. Although a few experiments in resource sharing were carried out, and the Telnet protocol was developed to allow a user on one machine to log onto another machine over the network, other applications became more popular.
+Initially conceived as a means of sharing costly computing resources among ARPA research contractors, during the 1970s, the ARPANET developed in a variety of unexpected directions. Although a few experiments in resource sharing were carried out, and the Telnet protocol was developed to allow a user on one machine to log onto another machine over the network,other applications became more popular.
 
-The first of these applications was enabled by the File Transfer Protocol (FTP), developed in 1971 by a group led by Abhay Bhushan of MIT (Bhushan, 1972). This protocol enabled a user on one system to connect to another system for the purpose of either sending or retrieving a particular file. The concept of an anonymous user was quickly added, with constrained access privileges, to allow users to connect to a system and browse the available files
+The File Transfer Protocol (FTP) developed in 1971 by a group led by MIT's Abhay Bhushan (Bhushan, 1972)permitted the first of these applications. This protocol allowed a user to connect to another device on one system in order to either submit or retrieve a particular file. The concept of an anonymous user was quickly added to allow users to connect to a system and browse the files available.
 
 ## **From Arpanet to Internet**
-Although the ARPANET was ARPA's largest networking effort, it was by no means the only one. The agency also supported research on terrestrial packet radio and packet satellite networks. In 1973, Robert Kahn and Vinton Cerf began to consider ways to interconnect these networks, which had quite different bandwidth, delay, and error properties than did the telephone lines of the ARPANET. The result was TCP/IP, first described in 1973 at an International Network Working Group meeting in England. Unlike NCP, which enabled the hosts of a single network to communicate, TCP/IP was designed to interconnect multiple networks to form an Internet.
+While the ARPANET was the biggest networking initiative by ARPA, it was by no means the only one. The organisation has funded ground packet radio and packet satellite networks studies.Robert Kahn and Vinton Cerf began to consider ways of interlinking these networks in 1973 and that led to quite different bandwidth, delay and error properties than the ARPANET telephone lines did.
 ## **Local Area Networks**
-Shared-media LANs became the dominant form of computer-to-computer communication within a building or local area, although variations from IBM (Token Ring) and others also captured part of this emerging market.
+Mutual-media LANs are now the dominant form of computer-to-computer interaction within a building or local region, though IBM (Token Ring) and other variants have also captured part of this emerging market.
 
 # **The NSFNET Years** *(1980-1990)*
-During the late 1970s, several networks were constructed to serve the needs of particular research communities. These networks—typically funded by the federal agency that was the primary supporter of the research area—included MFENet, which the Department of Energy established to give its magnetic fusion energy researchers access to supercomputers, and NASA's Space Physics Analysis Network (SPAN).
+Several networks were built to serve the needs of specific research groups during the late 1970s. Such networks — typically sponsored by the federal agency that was the research area's primary supporter — included MFENet, which was set up by the Department of Energy to provide access for supercomputers to its magnetic fusion energy scientists, and NASA's Space Physics Analysis Network (SPAN).
 # **Emergence of the Web** *(1990 to the Present)*
- Coming to the early 1990s,  the Internet was already known internationally, and its operation had largely been transferred from the NSF to commercial providers. Public access to the Internet expanded rapidly thanks to the ubiquitous nature of the analog telephone network and the availability of modems for connecting computers to this network. Digital transmission became possible throughout the telephone network with the deployment of optical fiber, and the telephone companies leased their broadband digital facilities for connecting routers and regional networks to the developers of the computer network. In April 1995, all commercialization restrictions on the Internet were lifted. Although still primarily used by academics and businesses, the Internet was growing, with the number of hosts reaching 250,000. Then the invention of the Web catapulted the Internet to mass popularity almost overnight. 
+ The Internet had already been known internationally until the early 1990s, and its operation had been largely transferred from the NSF to commercial providers. Due to the ubiquitous nature of the analogue telephone network and the availability of modems for connecting computers to this network, public Internet access has expanded rapidly. With the introduction of optical fibre, electronic communication became available throughout the telephone network, and telephone companies leased their virtual broadband facilities to link routers and regional networks through computer network developers. All Internet marketing restrictions were lifted in April 1995. Although still primarily used by academics and businesses, the Internet was growing, with the number of hosts reaching 250,000. Then the invention of the Web catapulted the Internet to mass popularity almost overnight. 
 
-Define the features of the following technologies that are essential in terms of the development of the internet:
-  - packets
-  - IP addresses (IPv4 and IPv6)
-  - routers and routing
-  - domains and DNS
 
 #### **Q2. Define the features of the following technologies that are essential in terms of the development of the internet:**
   - packets
@@ -52,14 +49,15 @@ A packet:
 2. *sources IP address to destination*
 3. *contains parameters for aintaining service quality*
 ## *IP addresses (IPV4 and IPV6)*
-An Internet Protocol address (IP address is a label assignedto each device connected to a network) that follows the Inetrnet protocol for data transfer.
-IP address is written in human readable numeric symbol such as 255.255.172.1. IPV4 refers to 32-bit address while IPV6 uses 128-bits for IP adress. Two main functions of IP address are:
+An Internet Protocol address (IP address) is a tag assigned to each networked device that follows the data transfer protocol inetrnet.
+IP address in human readable numerical symbol such as 255.255.172.1 is written. IPV4 refers to a 32-bit address whereas IPV6 uses IP address 128-bit. Two big IP address features are:
 a. Identifying the host 
 b. Providng the location of the host in the network.
 
 ## *domains and DNS*
-Domian means a website and domain name is the address where the Internet users can access the website. A domain name is assigned to for identifying computers on the Internet.
-A Domin Name System (DNS) is a standard hierarchical naming system for computers or other relevant devices connected to the Internet. DNS is equivalent to a telephone directory of domain names and DNS translate the domain names into IP addresses.
+Domain means a website and the description of the domain is the address that Internet users can access the website. To identify computers on the Internet, a domain name is assigned.
+A Domin Name System (DNS) for computers or other related devices connected to the Internet is a generic hierarchical naming system. DNS is the equivalent of a domain name telephone directory and DNS converts the domain name into IP addresses.
+
 <!-- IPv4 has 32-bit address length	and IPv6 has 128-bit address length.
 IPV4 Supports Manual and DHCP address configuration	whereas IPV6 supports Auto and renumbering address configuration
 In IPv4 end to end connection integrity is Unachievable	and in IPv6 end to end connection integrity is Achievable
@@ -68,7 +66,7 @@ IPv4 can generate 4.29×109 address space and Address space of IPv6 is quite lar
 ## *routers and routing*
 A router is a networking device used to forward data packets between computer networks. Also, quite essential for internet, traffic control of data flow is also maintained by router. Router acts as a gateway and is placed at a meeting pointof two or more networks. A router inspects a packet's header's destination IP address and determines the packet's next hop.
 
-#### **Define the features of the following technologies that are essential in terms of the development of the internet:**
+#### Q3.**Define the features of the following technologies that are essential in terms of the development of the internet:**
   - TCP
   - HTTP and HTTPS
   - web browsers (requests, rendering and developer tools)
@@ -78,16 +76,17 @@ A router is a networking device used to forward data packets between computer ne
   The Transmission Control Protocol (TCP) is one of the most adopted protocols of the Internet protocol suite. Initially originated in the Initial network implementation in which it to complement the Internet Protocol (IP). Therefore, the entire package is commonly referred to as TCP/IP. TCP is responsible to deliver reliable, ordered, and error-checked stream of octets (bytes)between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP. User Datagram Protocol (UDP) can be used for applications that do not require reliable data stream service.
 
   **HTTP and HTTPS**
-  The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. It is regarded as the foundation of data communication tecchnology for the World Wide Web. In World wide Web, hypertext documents include hyperlinks to other resources that is easily accessible to user. User can respond by a mouse click or by tapping the screen in a web browser or other ways.
+In distributed, shared, hypermedia information systems, the Hypertext Transfer Protocol (HTTP) is an application protocol. It is considered the cornerstone of the World Wide Web's data communication technology. Hypertext files in the World Wide Web contain hyperlinks to other user-friendly tools. Users can respond by clicking a mouse or tapping the screen in a web browser or other manner. 
 
-  Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP)and  is widely used for secure communication over a network.
+Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP) that is commonly used for secure network communication.
 
   **web browsers (requests, rendering and developer tools)**
-  A web browser (commonly referred to as a browser) is a software application to access information available on the World Wide Web. It is a big big web  of network from all over the world. sWhen a user requests a specific website, the web browser retrieves the necessary content from a web server and then displays the resulting web page on the user's device.
-  HTTP Request is a packet of Information that is sent by one computer to another computer to communicate.
+  A web browser (commonly referred to as a browser) is a World Wide Web-based software programme for accessing information. It's a big network internet from around the world. When a user requests a specific website, the web browser must download the appropriate content from a web server and then view the corresponding web page on the computer of the user.
 
-  Browser rendering is performed by an engine called browser rendering engine  which is a Software that renders HTML pages (Web pages). It turns the HTML layout tags in the page into the appropriate commands for the operating system.
+  HTTP Request is a data packet that is sent to another device for communication by one computer.
 
+  Browser rendering is performed by a browser rendering engine, a software that makes HTML (Web pages) pages. This converts the page's HTML template tags into the operating system's correct commands.
+  
   Developer tools are those browsers which we use to search certain website. Examples are: mozilla firefox, Google Chrome, Internet Explorer, Opera, Safari
 
 
@@ -157,6 +156,18 @@ Disadvantages of Java programming language:
 3. The default look of GUI applications  in Java using the Swing toolkit is very different from native applications.
 Language Limited Latency Critical Tuning.
 3. Java has  inefficient Architecture.
+
+#### Q7. **Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue**
+Among the given list, I'd like to choose the following issues:
+
+1. intellectual property, copyright, and acknowledgement:
+Intellectual property is protected by laws specific to the expression of an idea. Copyright is the law specific to the expression of ideas in visual or audio form. Unlike a trademark that indicates a specific item or design is protected, copyright covers a different expression of thought.
+As an IT professional, one should be quite aware of the copyright rules and regulatoins regarding the use of any other's idea. 
+Intellectual property rights include patents, copyright, industrial design rights, trademarks, plant variety rights, trade dress, geographical indications, and in some jurisdictions trade secrets.
+Being an IT professional and specifically  talking about intellectual property regarding software and other IT products, Software copyright is used by Software Developers and proprietary software companies to prevent the unauthorized copying of their software. Free and open source licenses also rely on copyright law to enforce their terms. For instance, copyleft licenses impose a duty on licensees to share their modifications to the work with the user or copy owner under some circumstances. No such duty would apply had the software in question been in the public domain. To use other's creativity or design is the violation of intellectual property. The moment an idea or creative concept is documented on paper or electronically it is automatically protected by copyright in Australia. In Australia, copyright law is governed by the Copyright Act 1968 (Cth) (Copyright Act), and is administered by the Department of Communications and the Arts.Intellectual property (IP) and other intangible assets that relate to doing business include patents, trade marks, designs, and secret processes and formulae (Copyright Act Australia, 1968).
+2. criminal acts such as theft, fraud, trafficking and distribution of prohibited
+
+
 
 #### **Q8:Explain control flow, using an example from the Ruby programming language**
 A program control flow (or flow of control) is the order, from the start to the end, in which individual statements, instructions or function calls of a program are executed. Control flow diagram shows the step by step operation of a program and different symbols are used for input/output (Rhombic), operation (rectangle), start (oval) and so on.
@@ -229,6 +240,10 @@ example: hash = {'a':3,'b':4, 'c':5}
  Here, a,b,c are keys with respective values 3,4 and 5. keys are String class and values are Integers.
 
 
+#### *Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”*
+  - Identify the classes you would use to solve the problem
+  - Write a short explanation of why you would use the classes you have identified
+
 
 # **Q12:**
 In the given programme,
@@ -263,6 +278,7 @@ The relevant algorithm for the outlined questioned is as below:
 5. Check whether the next number is prime or not by repeating the process no. 4.
 6. Repeat process number 5 until number is 99
 7. Display the list of prime numbers.
+8. End the program.
 
 The flowchart of the programme:
 
