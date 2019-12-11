@@ -160,12 +160,44 @@ Language Limited Latency Critical Tuning.
 #### Q7. **Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue**
 Among the given list, I'd like to choose the following issues:
 
-1. intellectual property, copyright, and acknowledgement:
-Intellectual property is protected by laws specific to the expression of an idea. Copyright is the law specific to the expression of ideas in visual or audio form. Unlike a trademark that indicates a specific item or design is protected, copyright covers a different expression of thought.
-As an IT professional, one should be quite aware of the copyright rules and regulatoins regarding the use of any other's idea. 
-Intellectual property rights include patents, copyright, industrial design rights, trademarks, plant variety rights, trade dress, geographical indications, and in some jurisdictions trade secrets.
-Being an IT professional and specifically  talking about intellectual property regarding software and other IT products, Software copyright is used by Software Developers and proprietary software companies to prevent the unauthorized copying of their software. Free and open source licenses also rely on copyright law to enforce their terms. For instance, copyleft licenses impose a duty on licensees to share their modifications to the work with the user or copy owner under some circumstances. No such duty would apply had the software in question been in the public domain. To use other's creativity or design is the violation of intellectual property. The moment an idea or creative concept is documented on paper or electronically it is automatically protected by copyright in Australia. In Australia, copyright law is governed by the Copyright Act 1968 (Cth) (Copyright Act), and is administered by the Department of Communications and the Arts.Intellectual property (IP) and other intangible assets that relate to doing business include patents, trade marks, designs, and secret processes and formulae (Copyright Act Australia, 1968).
-2. criminal acts such as theft, fraud, trafficking and distribution of prohibited
+1. intellectual property, copyright, and acknowledgement:</br>
+An IT professional is not the one who only delivers IT products efficiently but is also quite remarkably conscious about his/her accountability towards protecting the intellectual property right of the original creator.
+The right to intellectual property is protected by laws exclusive to an idea's expression. Copyright is the law applicable to the visual or audio phase of the transmission of ideas. Copyright protects a different expression of thought as opposed to a trademark that means a specific item or model is protected.</br>
+As an IT professional, one should be quite aware of the copyright rules and regulatoins regarding the use of any other's idea. Patents, copyright, industrial design rights, marks, plant variety rights, trade dress, geographical indications, and trade secrets in some jurisdictions include intellectual property rights.
+The UCC was established in 1952 under the auspices of the United Nations Education, Scientific and Cultural Organization (UNESCO) in an effort to bring more countries into the international community.
+Under the auspices of the United Nations Education, Scientific and Cultural Organization (UNESCO), the UCC was established in 1952 in an effort to include a greater number of countries. Being an IT professional and specifically  talking about intellectual property regarding software and other IT products, it is wise to mention that Software copyright is used by Software developers and proprietary software companies to prevent the unauthorized copying of their software. To order to enforce their terms, free and open source licences also depend on copyright law. For example, under certain cases, copyleft licences place an obligation on licensees to share their changes to the work with the user or copy owner. If the code in question were in the public domain, no such obligation would apply. Using the invention or development of others is violating intellectual property. The moment an idea or creative concept is documented on paper or electronically it is automatically protected by copyright in Australia. Intellectual property (IP) and other intangible assets that relate to doing business include patents, trade marks, designs, and secret processes and formulae (Copyright Act Australia, 1968). Whether an idea or a creative concept is documented on paper or electronically protected in Australia automatically by copyright. Throughout Australia, copyright law is regulated by the Copyright Act 1968 (Cth) (Copyright Act) and is administered by the Department of Communications and Arts. Intellectual Property (IP) and other business-related intangible assets, including trademarks, selling and trading patents, secrets of process or formula and so on come under this act in Australia.</br>
+
+2. Illicit activities such as theft, fraud, smuggling and distribution of prohibited substances, terrorism: <br>
+As mentioned earlier, along with the development of Internet technology, there is also dark side which can be generalized as 'Cyber Crime' in a wide scope. Cyber crime is not a fun anymore and it not only involves in a loss of money and information but the life of one or even many people. The word ' cybercrime ' is used in Australia to describe both:
+- computer-related offences or other ICTs (such as computer intrusions and denial of service attacks)
+- crimes where computer related devices or ICTs systems are an integral part of an offence (one eample is hacking someone's bank account)</br>
+As the Internet and other new technologies open up vast possibilities for offenders to commit new crimes and perpetrate old crimes in new ways, they also provide incentives. It is evident from the evidence available that the amount, complexity and effect of cybercrimes continues to grow and poses a serious and growing threat to Australian individuals, businesses and government. On the available evidence, it is clear that the number, sophistication, and impact of cyber crimes continues to grow, posing a serious and evolving threat to Australian individuals, businesses, and governments.
+
+In a moment, online offenders may commit crimes across several boundaries and at the same time target a vast number of victims. Tools with many legitimate uses, such as high-speed internet, peer-to-peer file sharing and advanced methods of authentication, can also help offenders conduct and mask their activities (Australia Cybercrime Act, 2001).
+As an IT professional, we should be even more responsible regarding the mitigation of IT related crimes whether it comes to designing or counselling the clients.
+
+#### *Case study on criminal acts such as theft, fraud, trafficking and distribution of prohibited substances,terrorism.*
+England National Health Service (NHS) Ransomware attack between May 12 and May 19 2017, NHS was hit with a ransomware attack affecting more than 34% of 
+trusts.
+## *Causes:*
+- Missing patches & unsupported operating systems (XP).
+- Poor user training & response.
+- Out of date firewalls and 
+Antivirus.
+## *Result:*
+- Estimated 19 000 appointments 
+cancelled, some urgent.
+- Significant financial cost & loss of 
+public image.
+- Data loss, manual data re‐entry 
+and work disruption.
+
+An IT professional should respond in the folowing way:
+
+- Recommend the client for the use of secured and the most updated operating system.
+- Provide enough training to the users.
+- Use of up to date firewalls and antivirus.
+- Report any cyber security threat received to the administration or the relevant level of the organization.
 
 
 
@@ -252,19 +284,20 @@ fahrenheit = (celsius * 9 / 5) + 32
 print "The result is: "
 print fahrenheit
 puts "."
-The first statement is incomplete. It should be gets.chomp.to_f
+The first statement is incomplete. It should be: </br>
+#### gets.chomp.to_f
 
 # **Q13:**
-The correct code is as below: (ruby can also be run, q13.rb)
-arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+The correct code is as below: (ruby can also be run, q13.rb)</br>
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]</br>
 i = 0
 while (i < arr.size - 1 and arr[i] < arr[i + 1])
   i = i + 1 end
-puts i
-swapper = arr[i]
-arr[i] = arr[i + 1]
-arr[i + 1] = swapper
-print arr
+puts i</br>
+swapper = arr[i]</br>
+arr[i] = arr[i + 1]</br>
+arr[i + 1] = swapper</br>
+print arr</br>
 
 #### *Demonstrate your algorithmic thinking through completing the following two tasks, in order:*
   i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
@@ -288,3 +321,6 @@ The flowchart of the programme:
 The ruby code for the relevant question is below which is a screenshot of ruby code q15.rb and this ruby file has been include in the directory named ruby-files
 
 ![rain](/pictures/rain.png)
+
+### **Q16:**
+The ruby code for q16 can be found in file ruby-files/q16.rb. 
