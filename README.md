@@ -272,9 +272,47 @@ example: hash = {'a':3,'b':4, 'c':5}
  Here, a,b,c are keys with respective values 3,4 and 5. keys are String class and values are Integers.
 
 
-#### *Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”*
+#### *Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”*
   - Identify the classes you would use to solve the problem
-  - Write a short explanation of why you would use the classes you have identified
+  - Write a short explanation of why you would use the classes you have identified</br>
+  In the solution, two classes have been coded: one for food menu and the other for staff. In the class Menu, the food items and the relevant price are listed and in the class Staff, tasks associated with order, preparation and order-serve tasks are carried out by different methods. 
+# Class Menu
+# 	def initialize(item, price) 		
+# 	  @item = item
+# 	end 
+
+# 	def make_order(order)
+# 		@item += order 
+# 	end 
+# 
+
+# 	def display()
+# 		puts "item: " + @item
+# 		puts "Price: " + @price.to_s
+# 	end 
+# end
+
+# Class worker
+
+# 	def initialize(cashier, kitchen_staff, waiter)
+# 		@cashier = cashier 
+# 		@kitchen_hand = kitchen_staff
+# 		@wait = waiter
+# 	end 
+
+# 	def receive_order(order)
+# 		order < Menu.item
+# 	end 
+
+# 	def prepare(order)
+# 		#ruby code 
+# 	end 
+
+# 	def serve_item(order)
+# 		#ruby code for the order
+# 	end 
+# end
+
 
 
 # **Q12:**
@@ -323,4 +361,50 @@ The ruby code for the relevant question is below which is a screenshot of ruby c
 ![rain](/pictures/rain.png)
 
 ### **Q16:**
-The ruby code for q16 can be found in file ruby-files/q16.rb. 
+The ruby code for q16 can be found in file ruby-files/q16.rb. </br>
+# val = [1,2,4,8,16,32,64,128] # array of allergy values
+# allergies = []
+
+# allergy = {eggs:1, peanuts:2, shellfish:4, strawberries:8, tomatoes:16, chocolate:32, pollen:64, cats:128} # hash for allergic items and relevant values
+# puts "Please enter the number:  "
+# num = gets.chomp.to_i
+# while num > 255 or num < 1
+#     puts "Your score is invalid. Your score should be between 1 and 255"
+#     num = gets.chomp.to_i
+# end
+# score = 0
+# j = 7
+
+# c = sprintf("%08b", num)
+
+ 
+# chars = c.split('')
+
+
+# for i in chars
+    
+#     if i == "1"
+#         x = val[j]
+#         allergies.append(allergy.key(x))
+#     end
+#     j = j - 1
+# end
+# allergy = {eggs:1, peanuts:2, shellfish:3, strawberries:4, tomatoes:5, chocolate:6, pollen:7, cats:8}
+# puts "Please enter the item you want to check allergy for:"
+# item = gets.chomp.to_i
+
+
+# if allergies.to_s.include?(allergy.key(item).to_s)
+#     puts "You are allergic to #{allergy.key(item)}"
+# else
+#     puts "You are not allergic to #{allergy.key(item)}"
+# end
+# puts
+
+# puts "Full list of allergies:"
+# puts
+# for i in allergies
+#     print i
+#     print "   "
+# end
+
