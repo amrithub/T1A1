@@ -1,6 +1,8 @@
-Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
-# **Q1. Development of Internet and Major Breakthrough**
+# **Term1 Assignment 1 (T1A1)**
+
+
+## **Q1. Development of Internet and Major Breakthrough**
 As most of us have witnessed the growth of internet technology over the last 3 decades, internet technology has been an integral part of modern society, business world, health, education and almost everywhere. Our journey started with a simple messaging application to a very sophisticated applications and technology associated to internet. The Internet technology was introduced about fourty years ago during a research by the US millitary dubbed Arpanet.
 ##### *(Carolyn Duffy Marsan, **Network World Feb 9, 2009** )*
 The Internet has grown rapidly since its launch and the number of users has risen from a small number of computer scientists to 1.5 billion customers.
