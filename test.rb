@@ -19,13 +19,52 @@
 # 	end
 # end
 #print is_it_a_snake("amritsa sger kssesrt")
-bool = [true, false]
+# 
+# Class MenuFood
+# 	def initialize(entree, main, dessert,price)
+# 		@entree = entree
+# 		@main = main 
+# 		@dessert = dessert 
+# 	end 
 
-male = bool[rand(2)]
+# 	def order_dine_in(order)
+# 		@entree += order 
+# 		@main += order 
+# 		@dessert += order 
+# 	end 
 
+# 	def order_take_away(order)
+# 		@entree += order 
+# 		@main += order 
+# 		@dessert += order 
+# 	end 
 
-if male
-    puts "We will use name John"
-else 
-    puts "We will use name Victoria"
-end
+# 	def display()
+# 		puts "Entree: " + @entree
+# 		puts "Main: " + @main
+# 		puts "Dessert: " + @dessert
+# 		puts "Price: " + @price.to_s
+# 	end 
+
+# Class Staff 
+
+# 	def initialize(cashier, kitchen_hand, wait)
+# 		@cashier = cashier 
+# 		@kitchen_hand = kitchen_hand
+# 		@wait = wait
+# 	end 
+
+# 	def take_order(order)
+# 		order < MenuFood.order_dine_in or MenuFood.order_take_away
+# 	end 
+
+# 	def cook(order)
+# 		#code 
+# 	end 
+
+# 	def serve(order)
+# 		#code
+# 	end 
+
+Staff
+MenuFood

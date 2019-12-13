@@ -202,14 +202,32 @@ An IT professional should respond in the folowing way:
 
 
 #### **Q8:Explain control flow, using an example from the Ruby programming language**
-A program control flow (or flow of control) is the order, from the start to the end, in which individual statements, instructions or function calls of a program are executed. Control flow diagram shows the step by step operation of a program and different symbols are used for input/output (Rhombic), operation (rectangle), start (oval) and so on.
-The following diagrams show the ruby code and the associated flow control diagram that has been explained after the diagrams:
+A program control flow (or flow of control) is the order, from the start to the end, in which individual statements, instructions or function calls of a program are executed. 
+Ruby has various control flow techniques and the major techniques are:
 
-![ruby](/pictures/ruby.png)
+Conditionals
+Looping
+Iterators and Blocks
+Exceptions.
+The following example will focuse on theEnumerable objects iterators.
 
-![Control flow](/pictures/flow.png) 
+If conditions check whether a condition is valid or not and loops decide whether to enter into a portion of codes or not.</br>
+Example:</br>
+# A programme to find the greater of two numbers
+#   puts "Enter the numbers"</br>
+#   a = gets.chomp.to_i
+#   b = gets.chomp.to_i
+#   if a > b
+#     puts "a is greater one"
+#   elsif b > a
+#     puts " is greater one"
+#   else
+#     puts "both are equal"
+#   end
 
-The start of the execution of a programme is represented by an oval shape. Inputs a and b are represented by the rhombic shapes. The operation of addition is shown next in a rectangle and the output of the operation is displayed before the end of the program.
+Here, the program starts with inputs for 'a' and 'b'. Then the control goes to the code which determines whether 'a' is greater than 'b' or not. If so, message is displayed that a is greater. Otherwise b is checked whether it is greater than a. If so, b is greater. If both these conditions are invalid, program output informs that both numbers are equal.
+Control flow diagram shows the step by step operation of a program and different symbols are used for input/output (Rhombic), operation (rectangle), start (oval) and so on.
+
 
 #### **Q9: Explain type coercion**
 
@@ -275,44 +293,63 @@ example: hash = {'a':3,'b':4, 'c':5}
 #### *Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”*
   - Identify the classes you would use to solve the problem
   - Write a short explanation of why you would use the classes you have identified</br>
-  In the solution, two classes have been coded: one for food menu and the other for staff. In the class Menu, the food items and the relevant price are listed and in the class Staff, tasks associated with order, preparation and order-serve tasks are carried out by different methods. 
-# Class Menu
-# 	def initialize(item, price) 		
-# 	  @item = item
-# 	end 
 
-# 	def make_order(order)
-# 		@item += order 
-# 	end 
-# 
+  In the solution, one class has been coded: The name of the class is Food. There are 3 methods called Order,Menu and display.  In a hash calledd list, the food items and the relevant prices are listed and when Menu is called, the menu list is displayed for the customer. Looking at the menu, the customer can make order and the customer can enter 'e' for exit after making the order. 
+  Finally, the total price is displayed which is calculated by a method called order. The list of Menu has been passed to the method order from the main code.
+# class Food  
+#     def initialize(item, quantity,price)  
+#       
+#       @item = item  
+#       @price = price
+#       @quantity = quantity 
+      
+#     end  
+    
+#    
+#     def order (list)
+#         total_price = 0
+#         puts list[:'toast']
+#         until @item == 'e'
+#         puts list
+#         puts "please enter your item"
+#         k = @item
+#         @item = gets.chomp
+        
+#         if @item == 'e'
+#             @item = k
+#             break
+#         end
+#         puts "please enter the quatity"
+#         @quantity = gets.chomp.to_i
+#         bb = list[:'k'].to_i
+#         print "bb: #{bb}"
+#         itemprice  = @quantity * bb.to_i
+#         total_price = total_price + itemprice
+#         puts 'Ruff! Ruff!'  
+#      end
+#     end  
+#     def Menu
+#         print list
+#     def display  
+        
+#       puts "Total Price of is: #{@total_price}"  
+#     end  
+#   end  
+#   
+    
+#   # make an object  
+#   # Objects are created on the heap 
+# puts "Here is the menu you can chose from"
 
-# 	def display()
-# 		puts "item: " + @item
-# 		puts "Price: " + @price.to_s
-# 	end 
-# end
+#   d = Food.new( 'cat', 4, 10 )  
+#   d.Menu
 
-# Class worker
-
-# 	def initialize(cashier, kitchen_staff, waiter)
-# 		@cashier = cashier 
-# 		@kitchen_hand = kitchen_staff
-# 		@wait = waiter
-# 	end 
-
-# 	def receive_order(order)
-# 		order < Menu.item
-# 	end 
-
-# 	def prepare(order)
-# 		#ruby code 
-# 	end 
-
-# 	def serve_item(order)
-# 		#ruby code for the order
-# 	end 
-# end
-
+#   puts "The id of d is #{d.object_id}."  
+    
+#   list =  {burger:10, pizza:7, momo:11, Pasta:8, Sizzler:12, curry:6, toast:4, chicken_wrap:12}
+#    d.order(list)
+#   d.display  
+    
 
 
 # **Q12:**
@@ -328,9 +365,10 @@ The first statement is incomplete. It should be: </br>
 # **Q13:**
 The correct code is as below: (ruby can also be run, q13.rb)</br>
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]</br>
-i = 0
+i = 0</br>
 while (i < arr.size - 1 and arr[i] < arr[i + 1])
-  i = i + 1 end
+  i = i + 1 </br>
+end</br>
 puts i</br>
 swapper = arr[i]</br>
 arr[i] = arr[i + 1]</br>
